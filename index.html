@@ -1,18 +1,48 @@
 ---
 title: Home
-layout: default
+layout: portfolio
 ---
 
-<div class="container my-3">
+{% assign about = site.data.about %}
 
-	<div class="text-center">
-		<h1>Hey there!<br/>Welcome to my very epic website</h1>
-		<h3>Made for CSC193A @ Sac State</h3>
+<header>
+
+	<img src="./assets/images/headshot_optimized.webp" class="headshot-img">
+
+	<div class="header-info">
+
+		<h2>{{ about.name }}</h2>
+		
+		<p>{{ about.title }}</p>
+
+		<p>{{ about.location }}</p>
+
 	</div>
 
-	<div>
-		<h3>Links:</h3>
-		<a href="/fancify/">Fancify My Text - Assignment 5</a>
+	<div class="header-links">
+
+		{% include link_buttons.liquid %}
+
 	</div>
 
-</div>
+</header>
+
+<div class="divider"></div>
+
+<main>
+
+	<section>
+
+		<h3>About</h3>
+
+		<p>{{ about.description }}</p>
+
+	</section>
+
+	<section>
+
+		<h3>Education</h3>
+
+	</section>
+
+</main>
