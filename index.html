@@ -7,7 +7,7 @@ layout: portfolio
 
 <header>
 
-	<img src="./assets/images/headshot_optimized.webp" class="headshot-img">
+	<img src="./assets/images/headshot.webp" class="headshot-img">
 
 	<div class="header-info">
 
@@ -42,6 +42,48 @@ layout: portfolio
 	<section>
 
 		<h3>Education</h3>
+
+		<div class="item-list">
+
+			{% for education in site.data.education %}
+
+				{% include row_item.liquid item=education %}
+
+			{% endfor %}
+
+		</div>
+
+	</section>
+
+	<section>
+
+		<h3>Work Experience</h3>
+
+		<div class="item-list">
+
+			{% for work in site.data.work %}
+
+				{% include row_item.liquid item=work %}
+
+			{% endfor %}
+
+		</div>
+
+	</section>
+
+	<section>
+
+		<h3>Projects</h3>
+
+		<div class="project-item-list">
+
+			{% for project in site.data.projects %}
+
+				{% include project_item.liquid item=project %}
+
+			{% endfor %}
+
+		</div>
 
 	</section>
 
