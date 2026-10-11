@@ -1,7 +1,7 @@
-- icon: bi-github
+- icon: ./assets/icons/github.svg
   color: "#333333"
   href: https://github.com/retro-aid
 
-- icon: bi-linkedin
-  color: "#0a66c2"
+- icon: ./assets/icons/linkedin.svg
+  color: "#0A66C2"
   href: https://linkedin.com/in/aidan-anderson-dev

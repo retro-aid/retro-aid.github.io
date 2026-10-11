@@ -21,7 +21,11 @@ layout: portfolio
 
 	<div class="header-links">
 
-		{% include link_buttons.liquid %}
+		{% for social in site.data.socials %}
+
+			{% include link_button.liquid item=social %}
+
+		{% endfor %}
 
 	</div>
 
