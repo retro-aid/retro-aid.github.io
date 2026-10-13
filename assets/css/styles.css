@@ -85,68 +85,10 @@ main {
 	padding: 12px 0;
 }
 
-.header-links {
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-end;
-	gap: 8px;
-	width: 200px;
-	height: 32px;
-	margin-left: auto;
-}
-
-.btn {
-	transition: transform ease-in-out 100ms;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	color: whitesmoke;
-	padding: 0;
-	font-size: 19px;
-	width: 32px;
-	height: 32px;
-	border: 1px solid gray;
-	border-radius: 4px;
-}
-
-.btn a {
-	color: whitesmoke;
-	text-decoration: none;
-}
-
-.btn:hover {
-	cursor: pointer;
-	transform: translateY(-2px);
-}
-
-i {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-}
-
-.row-item {
-	display: flex;
-	flex-direction: row;
-}
-
-.item-list {
-	display: flex;
-	flex-direction: column;
-	gap: 1.5rem;
-	margin: 1.25rem 0;
-}
-
 @media screen and (max-width: 480px) {
   .container {
 	padding: 64px 18px 18px 18px;
 	border: 0;
-  }
-
-  .header-links {
-	margin: 0;
-	justify-content: center;
   }
 
   header {

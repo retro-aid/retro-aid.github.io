@@ -1,0 +1,38 @@
+.row-item-list {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+	margin: 1.25rem 0;
+}
+
+.row-item {
+	display: flex;
+	flex-direction: row;
+}
+
+.row-item .date {
+	box-sizing: border-box; 
+	padding-right: 0.5rem; 
+	min-width: 115px; 
+	max-width: 115px;
+}
+
+.row-item .date p, .row-item .content p {
+	text-align: left;
+}
+
+.row-item .content {
+	display: flex; 
+	flex-direction: column; 
+	gap: 0.25rem;
+}
+
+.row-item .content .title {
+	color: var(--title-font-color); 
+	line-height: 1.5rem; 
+	font-weight: 400;
+}
+
+.row-item .content .subtitle {
+	line-height: 1.5rem;
+}

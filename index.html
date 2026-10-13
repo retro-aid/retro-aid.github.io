@@ -7,7 +7,7 @@ layout: portfolio
 
 <header>
 
-	<img src="./assets/images/headshot.webp" class="headshot-img">
+	<img src="./assets/images/headshot.webp" alt="Professional Headshot" class="headshot-img">
 
 	<div class="header-info">
 
@@ -35,7 +35,7 @@ layout: portfolio
 
 <main>
 
-	<section>
+	<section id="about">
 
 		<h3>About</h3>
 
@@ -43,11 +43,11 @@ layout: portfolio
 
 	</section>
 
-	<section>
+	<section id="education">
 
 		<h3>Education</h3>
 
-		<div class="item-list">
+		<div class="row-item-list">
 
 			{% for education in site.data.education %}
 
@@ -59,11 +59,11 @@ layout: portfolio
 
 	</section>
 
-	<section>
+	<section id="work-experience">
 
 		<h3>Work Experience</h3>
 
-		<div class="item-list">
+		<div class="row-item-list">
 
 			{% for work in site.data.work %}
 
@@ -75,7 +75,7 @@ layout: portfolio
 
 	</section>
 
-	<section>
+	<section id="projects">
 
 		<h3>Projects</h3>
 
