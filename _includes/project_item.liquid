@@ -2,17 +2,21 @@
 
 	<div class="image-container">
 
-		<img src="{{ include.item.image }}" alt="{{ include.item.image-alt }}">
+		{%
+			include protected_image.liquid
+			src=include.item.image
+			alt=include.item.image-alt
+		%}
 
 	</div>
 
 	<div class="content">
 
-		<p style="color: #111111; text-align: left; line-height: 1.5rem; font-weight: 400;">
+		<p class="title">
 			{{ include.item.title }}
 		</p>
 
-		<p style="text-align: left; line-height: 1.5rem;">
+		<p class="subtitle">
 			{{ include.item.subtitle  }}
 		</p>
 

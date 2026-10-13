@@ -7,7 +7,12 @@ layout: portfolio
 
 <header>
 
-	<img src="./assets/images/headshot.webp" alt="Professional Headshot" class="headshot-img">
+	{% 
+		include protected_image.liquid 
+		src="./assets/images/headshot.webp"
+		alt="Professional Headshot"
+		classes="headshot-img"
+	%}
 
 	<div class="header-info">
 

@@ -32,6 +32,18 @@
 	padding: 1rem;
 }
 
+.project-item .content .title {
+	color: var(--title-font-color);
+	text-align: left;
+	line-height: 1.5rem;
+	font-weight: 400;
+}
+
+.project-item .content .subtitle {
+	text-align: left;
+	line-height: 1.5rem;
+}
+
 @media screen and (max-width: 480px) {
   .project-item {
 	height: auto;
