@@ -1,11 +1,11 @@
-- image: ./assets/images/unreel.webp
-  image-alt: The Unreel Take
+- poster: ./assets/images/unreel.webp
+  poster-alt: The Unreel Take
   title: The Unreel Take
   subtitle: Senior Project - Lead Developer
   href: https://github.com/retro-aid/theunreeltake
 
-- image: ./assets/images/escape.webp
-  image-alt: Escape
+- poster: ./assets/images/escape.webp
+  poster-alt: Escape
   title: Escape
   subtitle: Final Game Project - Developer 
   href: https://github.com/retro-aid/CSC165-Lab-03

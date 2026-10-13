@@ -1,0 +1,21 @@
+{% if include.images.size > 0 %}
+
+	<div class="showcase-container">
+
+		{% for url in include.images limit:3 %}
+
+			<div class="showcase-image">
+
+				{% 
+					include protected_image.liquid
+					src=url
+					alt="Showcase Image"
+				%}
+
+			</div>
+			
+		{% endfor %}
+
+	</div>
+
+{% endif %}

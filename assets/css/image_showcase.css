@@ -1,0 +1,18 @@
+.showcase-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+}
+
+.showcase-container .showcase-image {
+	width: 160px;
+	height: 90px;
+}
+
+.showcase-container .showcase-image img {
+	object-fit: cover;
+	width: 160px;
+	height: 90px;
+	border-radius: 8px;
+}
