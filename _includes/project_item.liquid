@@ -22,4 +22,19 @@
 
 	</div>
 
+	<div class="info-container">
+
+		<button command="show-modal" commandfor="my-dialog">
+			<svg width="18" height="18">
+				<use width="18" height="18" href="../assets/icons/info-square.svg"></use>
+			</svg>
+		</button> 
+
+	</div>
+
+	<dialog id="my-dialog">
+  		<p>This dialog was opened using an invoker command.</p>
+  		<button commandfor="my-dialog" command="close">Close</button>
+	</dialog>
+
 </div>

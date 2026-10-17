@@ -44,6 +44,33 @@
 	line-height: 1.5rem;
 }
 
+.project-item .info-container {
+	display:flex; 
+	flex-grow: 1; 
+	padding: 0.5rem; 
+	justify-content: flex-end;
+
+	@media screen and (max-width: 480px) {
+		padding-top: 0;
+	}
+}
+
+.project-item .info-container button {
+	all: unset;
+	color: gray;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 3px;
+	cursor: pointer;
+	width: 24px; 
+	height: 24px;
+}
+
+.project-item .info-container button:hover {
+	background-color: rgb(235, 235, 235);
+}
+
 @media screen and (max-width: 480px) {
   .project-item {
 	height: auto;
