@@ -1,8 +1,8 @@
 
 <button class="btn" style="background-color: {{ include.item.color }};">
 	<a href="{{ include.item.href }}">
-		<svg width="20" height="20" style="display: flex;">
-			<use width="20" height="20" href="{{ include.item.icon }}"></use>
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20" style="display: flex;">
+			<use width="20" height="20" href="{{ include.item.icon }}" xlink:href="{{ include.item.icon }}"></use>
 		</svg>
 	</a>
 </button>
