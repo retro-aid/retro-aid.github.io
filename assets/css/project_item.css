@@ -67,6 +67,10 @@
 	height: 24px;
 }
 
+.project-item .info-container button svg {
+	fill: gray;
+}
+
 .project-item .info-container button:hover {
 	background-color: rgb(235, 235, 235);
 }

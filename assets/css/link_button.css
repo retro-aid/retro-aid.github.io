@@ -28,8 +28,12 @@
 }
 
 .header-links .btn a {
-	color: whitesmoke;
 	text-decoration: none;
+}
+
+.header-links .btn a svg {
+	fill: whitesmoke;
+	display: flex;
 }
 
 .header-links .btn:hover {

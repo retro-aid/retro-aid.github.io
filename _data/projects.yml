@@ -1,10 +1,10 @@
-- poster: ./assets/images/unreel.webp
+- poster: /assets/images/unreel.webp
   poster-alt: The Unreel Take
   title: The Unreel Take
   subtitle: Senior Project - Lead Developer
   href: https://github.com/retro-aid/theunreeltake
 
-- poster: ./assets/images/escape.webp
+- poster: /assets/images/escape.webp
   poster-alt: Escape
   title: Escape
   subtitle: Final Game Project - Developer 
