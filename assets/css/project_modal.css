@@ -1,0 +1,15 @@
+.project-item-modal {
+	box-sizing: border-box;
+	border: 1px solid rgb(169, 169, 169);
+	border-radius: 8px;
+	width: 100%;
+	max-width: 700px;
+}
+
+.project-item-modal ul {
+	list-style-type: "✔  ";
+}
+
+.project-item-modal ul li {
+	margin-bottom: 0.5rem;
+}

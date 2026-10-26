@@ -3,9 +3,22 @@
   title: The Unreel Take
   subtitle: Senior Project - Lead Developer
   href: https://github.com/retro-aid/theunreeltake
+  id: the-unreel-take
+  experience: 
+    - Lead a team of 8 developers in a CI/CD full stack web application 
+    - Utilized skills in TypeScript, Node.js, Next.js and React.js
+    - Conducted regular client feedback meetings to assess progres and scope changes
+    - Participated in regular code reviews using GitHub
+    - Implemented full coverage unit testing
 
 - poster: /assets/images/escape.webp
   poster-alt: Escape
   title: Escape
   subtitle: Final Game Project - Developer 
   href: https://github.com/retro-aid/CSC165-Lab-03
+  id: escape
+  experience:
+    - Partnered with a classmate to develop a 3D physics-based video game
+    - Utilized skills in Java, Java OpenGL and my knowledge of 3D physics engines
+    - "Implemented modifications to CSU Sacramento's in-house game engine: TAGE"
+    - Live project demonstration and gameplay for professor and peers

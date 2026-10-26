@@ -1,0 +1,24 @@
+<dialog 
+	class="project-item-modal" 
+	id="{{ include.item.id }}"
+>
+
+	<h2>{{ include.item.title }}</h2>
+
+	<h4>{{ include.item.subtitle }}</h4>
+
+	<ul>
+	
+		{% for exp in include.item.experience %}
+			
+			<li>{{ exp }}</li>
+
+		{% endfor %}
+
+	</ul>
+
+	<p style="text-align: center;"><i>Project images coming soon...</i></p>
+
+	<button commandfor="{{ include.item.id }}" command="close">Close</button>
+
+</dialog>
